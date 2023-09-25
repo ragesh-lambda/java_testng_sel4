@@ -20,7 +20,7 @@ public class TestNGtest2 {
     @BeforeMethod
     public void setup(Method m, ITestContext ctx) throws MalformedURLException {
         String username = ""; //pass your username here
-        String authkey = ""; //pass your username here
+        String authkey = ""; //pass your accesskey here
         String hub = "@hub.lambdatest.com/wd/hub";
         ChromeOptions browserOptions = new ChromeOptions();
 
